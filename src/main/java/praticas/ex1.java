@@ -6,7 +6,7 @@ public class ex1 {
 
     public static void main(String[] args) {
 
-        double cotacaoDolar = 5.16;
+        double cotacaoDolar = Double.parseDouble(JOptionPane.showInputDialog("Valor da cotação atual: "));
         double valorParaCotar = Double.parseDouble(JOptionPane.showInputDialog("Digite os seus dólares: "));
         double cotacaoEmReal = valorParaCotar * cotacaoDolar;
 
